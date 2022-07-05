@@ -4,7 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-section{
+.flexible{
     display: flex;
 margin-bottom: 10%;
 }
@@ -14,7 +14,7 @@ margin-bottom: 10%;
 }
 
 h1{
-font-size: 50px;
+font-size: 40px;
 }
 
 h3{
@@ -22,7 +22,11 @@ h3{
 }
 
 
+.recipie{
 
+    text-align: center;
+
+}
 
 
 .half-width{
@@ -34,6 +38,8 @@ h3{
     width: 60%;
 }
 
+
+
 .button{
     color: white;
 
@@ -44,3 +50,26 @@ h3{
 
     
 }
+
+.background-image{
+
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+
+.box{
+width: 40%;
+padding: 40px;
+margin-left: 10%;
+border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    
+    
+}
+
+
+.last-footer{
+    color: white;
+    background-color: black;
+}
+
